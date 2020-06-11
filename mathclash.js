@@ -202,7 +202,7 @@ function shiftCells(){
                 //console.log(cells[i][j])
                 for(let i1 = i+1;i1<cells.length;i1++){
                     //console.log(i1,j)
-                    if(cells[i1][j] !== ""){
+                    if(cells[i1][j].number !== ""){
                         //console.log(cells[i1][j])
                         //let temp = 
                         cells[i][j].number = cells[i1][j].number
